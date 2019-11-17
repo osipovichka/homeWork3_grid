@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kalam', cursive;
+    
+}
+h1{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+.form {
+    display: grid;
+    width: 800px;
+    height: 600px;
+    grid-template-rows: 70px auto;
+    border: 2px solid #827717; 
+    background-color: #9E9D24;
+}
+
+.title {
+    padding-left: 10px;
+}
+
+.topic {
+    display: grid;
+    grid-template-columns: 95% 5%;
+    align-content: space-around;
+    border-bottom: 2px solid #827717;
+    background-color: #CDDC39;
+}
+
+.button {
+    content: url('./crocc.png');
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.discussion {
+    overflow: auto;
+    margin: 10px;
+}
+
+.message {
+    display: grid;
+    grid-template-columns: 140px auto;
+}
+
+.left-block {
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border-right: 2px solid #827717;
+}
+
+.initials{
+    display: grid;
+    border: 2px solid #827717;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDDC39;
+    font-weight: bold;
+}
+
+.right-block {
+    padding: 0px 10px 5px 15px;
+}
+
+.text {
+    margin: 0px;
+    padding: 5px;
+    border: 2px solid #827717;
+    background-color: #AFB42B;
+}
