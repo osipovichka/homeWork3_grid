@@ -45,9 +45,6 @@ h1{
 .discussion {
     overflow: auto;
     margin: 10px;
-}
-
-.message {
     display: grid;
     grid-template-columns: 140px auto;
 }
