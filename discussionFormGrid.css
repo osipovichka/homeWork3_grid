@@ -6,7 +6,6 @@
 
 body{
     font-family: 'Kalam', cursive;
-    
 }
 h1{
     font-size: 30px;
@@ -43,35 +42,33 @@ h1{
 }
 
 .discussion {
-    overflow: auto;
-    margin: 10px;
     display: grid;
-    grid-template-columns: 140px auto;
-}
-
-.left-block {
-    display: grid;
-    grid-template-columns: 50px auto;
+    grid-template-columns: 55px 85px auto;
     align-items: center;
-    justify-items: center;
-    justify-content: center;
-    border-right: 2px solid #827717;
+    margin: 10px;
+    overflow: auto;
 }
 
 .initials{
     display: grid;
     border: 2px solid #827717;
-    width: 46px;
-    height: 46px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    justify-self: end;
     background-color: #CDDC39;
     font-weight: bold;
 }
 
-.right-block {
+.date-time {
+    justify-self: center;
+}
+
+.name-text {
     padding: 0px 10px 5px 15px;
+    border-left: 2px solid #827717;
 }
 
 .text {
